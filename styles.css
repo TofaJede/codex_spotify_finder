@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.results {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.album {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.album img {
+  max-width: 100%;
+  height: auto;
+}
+
+.album .info {
+  margin-top: 10px;
+}
+
+.album .info a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #1db954;
+}
