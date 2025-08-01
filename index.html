@@ -25,7 +25,12 @@
     <button type="submit">Search</button>
   </form>
   <div id="results" class="results"></div>
-
+  
+  <script>
+    const SPOTIFY_ACCESS_TOKEN = 'YOUR_VALID_ACCESS_TOKEN';
+    // Refresh the page when the token expires (1 hour)
+    setTimeout(() => window.location.reload(), 60 * 60 * 1000);
+  </script>
   <script src="app.js"></script>
 </body>
 </html>
